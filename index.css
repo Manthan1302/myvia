@@ -1,0 +1,123 @@
+body{
+	background-color: #E3E6E3;
+}
+.nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: white;
+}
+.set{
+	font-size: 80px;
+	color: red;
+}
+.book{
+	border-top: 3px solid #12B58A;
+	border-radius: 0px 0px 4px 4px;
+	padding: 3% 5% 2% 5%;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.4);
+	background-color: #E3E6E3;
+	width: 40%;
+
+
+}
+.input{
+	width: 90%;
+	padding-right: 4%;
+	font-size: 14px;
+	padding: 10px;
+	border-radius: 10px;
+}
+.flex{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.bg-img{
+	background-image: url("bg.jpg");
+	background-size: cover;
+	height: 600px;
+	padding-left: 100px;
+	padding-top:30px; 
+}
+.border{
+	border: 1px solid;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border-radius: 10px
+	}
+.ticket{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+.img-footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: white;
+	padding:20px;
+	font-size: 20px;
+}
+.routes{
+	padding-left: 140px;
+	padding-top: 20px;
+	padding-right: 140px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.text-img{
+	
+	background-image: url(img-text.jpg);
+	background-size: cover;
+	height: 500px;
+	opacity: 0.8;
+}
+.text-img-top{
+	color: white;
+	font-size: 30px;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+.text-img-bottom{
+	background-color: white;
+	padding:20px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.nav-top{
+	display: flex;
+	justify-content: space-around;
+	padding:10px;
+	padding-left: 100px;
+	padding-right: 100px;
+	background-color: #EBF2F7;
+	border-top:2px solid #E0E5E7;
+	border-bottom: 2px solid #E0E5E7;
+}
+.footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top: 10px;
+	padding-right: 160px;
+	padding-left: 160px;
+	background-color: #dae3ea;
+}
+.nav-hover:hover{
+	color: red;
+}
+.shrink:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.9);
+}
+.foot-hover:hover
+{
+	color: red;
+}
